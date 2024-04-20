@@ -1,6 +1,7 @@
 import java.util.function.*;
 
 public class Calculator {
+    
     static Supplier<Calculator> instance = Calculator::new;
 
     Calculator() {
